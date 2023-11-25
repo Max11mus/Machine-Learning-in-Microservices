@@ -1,6 +1,6 @@
 # Docker File for "customer_management" microservice
 
-FROM ubuntu
+FROM alpine
 
 # Install some dependencies/packages
 RUN apt-get install -y apt-transport-https
