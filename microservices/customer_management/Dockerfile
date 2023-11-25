@@ -28,7 +28,7 @@ ENV PATH $PATH:/app_data
 ENV GIT_DISCOVERY_ACROSS_FILESYSTEM 1
 RUN git config --global init.defaultBranch main
 RUN git init
-RUN git remote add origin https://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:x-oauth-basic@github.com/mohameosam/abc_msa.git
+RUN git remote add origin https://github.com/Max11mus/Machine-Learning-in-Microservices.git
 RUN git config core.sparseCheckout true
 
 RUN echo "/microservices/customer_management/" > /app_data/.git/info/sparse-checkout
