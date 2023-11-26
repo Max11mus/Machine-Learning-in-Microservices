@@ -1,6 +1,6 @@
 # Docker File for "customer_management" microservice
 
-FROM alpine
+FROM ubuntu
 
 # Install some dependencies/packages
 RUN apt-get install -y apt-transport-https
@@ -28,7 +28,7 @@ ENV PATH $PATH:/app_data
 ENV GIT_DISCOVERY_ACROSS_FILESYSTEM 1
 RUN git config --global init.defaultBranch main
 RUN git init
-RUN git remote add origin https://github.com/Max11mus/Machine-Learning-in-Microservices.git
+RUN git remote add origin https://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:x-oauth-basic@github.com/mohameosam/abc_msa.git
 RUN git config core.sparseCheckout true
 
 RUN echo "/microservices/customer_management/" > /app_data/.git/info/sparse-checkout
@@ -42,5 +42,5 @@ ENV FLASK_APP /app_data/microservices/customer_management/customer_management_ms
 VOLUME /app_data
 
 # Start mysql & flask services and available bash sheel
-#RUN chmod +x /app_data/microservices/customer_management/start_services
-#CMD git pull origin main && /app_data/microservices/customer_management/start_services && bash
+RUN chmod +x /app_data/microservices/customer_management/start_services
+CMD git pull origin main && /app_data/microservices/customer_management/start_services && bash
