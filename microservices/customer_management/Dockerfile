@@ -14,6 +14,8 @@ ENV JAVA_HOME /usr/lib/jvm/java-11-openjdk-amd64/
 
 # Install Flask to run our application and respond to API calls
 RUN pip install -U flask
+RUN pip install mysql-connector-python
+
 
 # Expose port TCP/8080 to listen the container's application/flask API calls
 EXPOSE 8080
