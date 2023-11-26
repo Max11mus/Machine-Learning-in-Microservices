@@ -1,6 +1,6 @@
 # Docker File for "customer_management" microservice
 
-FROM alpine
+FROM ubuntu
 
 # Install some dependencies/packages
 RUN apt-get install -y apt-transport-https
@@ -42,5 +42,5 @@ ENV FLASK_APP /app_data/microservices/customer_management/customer_management_ms
 VOLUME /app_data
 
 # Start mysql & flask services and available bash sheel
-#RUN chmod +x /app_data/microservices/customer_management/start_services
-#CMD git pull origin main && /app_data/microservices/customer_management/start_services && bash
+RUN chmod +x /app_data/microservices/customer_management/start_services
+CMD git pull origin main && /app_data/microservices/customer_management/start_services && bash
