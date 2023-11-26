@@ -21,6 +21,10 @@ sudo apt-get update
 # Встановлюємо Docker:
  sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
+# Install Docker Compose:
+# Встановлюємо Docker Compose:
+ sudo apt-get install docker-compose-plugin
+
 #Verify that the Docker Engine
 #Перевіряємо, що Docker Engine встановлено коректно:
 sudo docker run hello-world
