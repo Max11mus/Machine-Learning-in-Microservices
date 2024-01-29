@@ -1,6 +1,6 @@
-<mxfile modified="2024-01-28T20:58:36.676Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="qbKHeW42gQxz0zWfG8SN" version="23.0.2" type="github">
+<mxfile modified="2024-01-29T06:49:46.895Z" host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="mQ3QCoIirW_kbmdryyLS" version="23.0.2" type="github">
   <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
-    <mxGraphModel dx="6880" dy="3640" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="5504" dy="2912" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -316,7 +316,7 @@
           <mxGeometry y="1300" width="399" height="399" as="geometry" />
         </mxCell>
         <mxCell id="zwyTtVQznSvotEN4XHPx-44" value="&lt;font style=&quot;font-size: 50px;&quot;&gt;&lt;b&gt;КЛІЄНТИ&lt;/b&gt;&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=351;height=70;strokeWidth=5;" vertex="1" parent="1">
-          <mxGeometry x="179.5" y="1770" width="620" height="1920" as="geometry" />
+          <mxGeometry x="179.5" y="1764" width="620" height="1920" as="geometry" />
         </mxCell>
         <mxCell id="zwyTtVQznSvotEN4XHPx-46" value="" style="group;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" connectable="0" parent="1">
           <mxGeometry x="2800" y="1630" width="770" height="90" as="geometry" />
@@ -333,11 +333,17 @@
         <mxCell id="zwyTtVQznSvotEN4XHPx-6" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="zwyTtVQznSvotEN4XHPx-46" source="zwyTtVQznSvotEN4XHPx-1" target="zwyTtVQznSvotEN4XHPx-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="zwyTtVQznSvotEN4XHPx-47" value="" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=351;height=70;strokeWidth=5;" vertex="1" parent="1">
-          <mxGeometry x="4050" y="1802" width="620" height="1920" as="geometry" />
+        <mxCell id="zwyTtVQznSvotEN4XHPx-47" value="&lt;font style=&quot;font-size: 48px;&quot;&gt;ХМАРНІ СЕРВЕРИ&lt;/font&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=570;height=66;strokeWidth=5;" vertex="1" parent="1">
+          <mxGeometry x="3430" y="1830" width="1410" height="1520" as="geometry" />
         </mxCell>
         <mxCell id="zwyTtVQznSvotEN4XHPx-55" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Half_Rack_ToR.svg;" vertex="1" parent="1">
-          <mxGeometry x="2630" y="1850" width="361.72" height="470" as="geometry" />
+          <mxGeometry x="3512.42" y="1916" width="361.72" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="zwyTtVQznSvotEN4XHPx-56" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Half_Rack_ToR.svg;" vertex="1" parent="1">
+          <mxGeometry x="3954.1400000000003" y="1916" width="361.72" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="zwyTtVQznSvotEN4XHPx-58" value="" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/storage/Datacenter_Server_Half_Rack_ToR.svg;" vertex="1" parent="1">
+          <mxGeometry x="4395.860000000001" y="1916" width="361.72" height="470" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
